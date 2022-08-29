@@ -1,0 +1,13 @@
+2022-04-02 16:12:53,957-basepage-10-root-INFO-进入http://39.98.138.157/shopxo/index.php?s=/index/user/logininfo.html页面
+2022-04-02 16:12:53,980-basepage-24-root-INFO-输入用户名或者密码sysadmin2
+2022-04-02 16:12:53,995-basepage-24-root-INFO-输入用户名或者密码sysadmin2
+2022-04-02 16:12:54,221-test_case_demo-20-root-INFO-正在校验中
+2022-04-02 16:13:15,377-basepage-10-root-INFO-进入http://39.98.138.157/shopxo/index.php?s=/index/user/logininfo.html页面
+2022-04-02 16:13:15,404-basepage-24-root-INFO-输入用户名或者密码sysadmin3
+2022-04-02 16:13:15,415-basepage-24-root-INFO-输入用户名或者密码sysadmin3
+2022-04-02 16:13:15,662-test_case_demo-20-root-INFO-正在校验中
+2022-04-02 16:13:36,037-basepage-10-root-INFO-进入http://39.98.138.157/shopxo/index.php?s=/index/user/logininfo.html页面
+2022-04-02 16:13:36,058-basepage-24-root-INFO-输入用户名或者密码sysadmin1
+2022-04-02 16:13:36,071-basepage-24-root-INFO-输入用户名或者密码sysadmin1
+2022-04-02 16:13:36,297-test_case_demo-20-root-INFO-正在校验中
+2022-04-02 16:13:46,320-test_case_demo-24-root-INFO-校验成功
