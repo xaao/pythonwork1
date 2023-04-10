@@ -1,14 +1,12 @@
-# import os
 import pytest
-# from selenium import webdriver
+from pythonwork1.getdata.getdataa import Getdata
+from pythonwork1.login_page.loginpage import loginpagecl
+from pythonwork1.base.basepage import *
+
 
 # from base.log import llog
-from getdata.getdataa import Getdata
-from login_page.loginpage import loginpagecl
-import time
-from base.basepage import *
-
-logger = llog()
+#
+# logger =llog()
 class TestCases:
     @pytest.mark.parametrize('data', Getdata().get('../data/logindata.yaml'))
     def test_login(self, data):
@@ -18,8 +16,9 @@ class TestCases:
         logger.info('正在校验中')
         driver.implicitly_wait(6)
         a = login1.gettext()
-        assert a == data['text'] , login1.quit1()
+        assert a == data['text'], login1.quit1()
         logger.info('校验成功')
+        print(data)
         driver.quit()
 
 
@@ -31,4 +30,3 @@ if __name__ == '__main__':
 
     # pytest.main(['-sv', '--alluredir=./report'])
     # os.system('allure generate --clean %s -o %s'%('./report','./report.html'))
-

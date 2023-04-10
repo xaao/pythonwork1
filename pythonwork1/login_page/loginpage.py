@@ -3,7 +3,7 @@
 # from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 
-from base.basepage import basepagecl
+from pythonwork1.base.basepage import *
 
 
 class loginpagecl(basepagecl):
@@ -22,4 +22,4 @@ class loginpagecl(basepagecl):
         try:
             return self.driver.find_element(By.XPATH,'/html/body/div[5]/div[3]/div/div[1]/div[1]/div[1]/div/span').text
         except Exception as e:
-            print('error:{}'.format(e))
+            print('error:{}'.format(e.args))
